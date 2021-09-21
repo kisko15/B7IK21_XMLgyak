@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+	<cim id="xmghl45">Választás 2022</cim>
+	<hallgatok>
+		<hallgato id="xmgh4355">
+			<nev id="xm5dgl45">Jakab Péter</nev>
+			<lakcim id="xsdfl56hl45">1234 Budapest, Fő út 24.</lakcim>
+		</hallgato>
+	</hallgatok>
+	<helyszin id="xlvn45">1233 Budapest, János utca 11.</helyszin>
+	<eloado>
+		<nev id="xm5fg45">Puszta Ernő</nev>
+		<adoszam id="xmgsdfl">123456779</adoszam>
+		<lakcim id="xm74d5">1234 Budapest, Molnár Géza út 26.</lakcim>
+	</eloado>
+	<datum id="x45ddhl45">2021. 09. 21.</datum>
+</konferencia>
