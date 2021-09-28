@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE konyvek SYSTEM "KK_konyv.dtd">
+
+<konyvek>
+	<konyv id="KONYV_01">
+		<cim>Mesterséges intelligencia</cim>
+		<kiadasi_ev>1995</kiadasi_ev>
+		<kiado>Mozaik</kiado>
+		<szerzo>Jakab Péter</szerzo>
+		<absztakt>AB1</absztakt>
+	</konyv>
+	<konyv id="KONYV_2">
+		<cim>Információs rendszerek</cim>
+		<kiadasi_ev>1997</kiadasi_ev>
+		<kiado>Mozaik2</kiado>
+		<szerzo>Kocsis István</szerzo>
+		<absztakt>AB2</absztakt>
+	</konyv>
+</konyvek>
