@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE orarend SYSTEM "KK_orarend.dtd">
+
+<orarend>
+	<ora id="GBNHZ54" tipus="Eloadas">
+		<targy>WEB_es alkalmazasok</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>In 1. em. 101</helyszin>
+		<oktato>Dr. Krizsan Zoltan</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBNHZ55" tipus="Eloadas">
+		<targy>WEB technologiak</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>A1 3. em. 305</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBNHZ56" tipus="Eloadas">
+		<targy>Mesterseges intelligencia</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>14</tol>
+			<ig>17</ig>
+		</idopont>
+		<helyszin>A1 magasfsz</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBNHZ57" tipus="Gyakorlat">
+		<targy>WEB technologiak</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>17</tol>
+			<ig>19</ig>
+		</idopont>
+		<helyszin>In 1. em. 101</helyszin>
+		<oktato>Kunne Tamas Judit</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBNHZ51" tipus="Gyakorlat">
+		<targy>WEB_es alkalmazasok</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>In 1. em. 101</helyszin>
+		<oktato>Dr. Krizsan Zoltan</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBNH497" tipus="Eloadas">
+		<targy>Adatkezeles XML_ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>A2 fsz 1</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GLNHZ57" tipus="Gyakorlat">
+		<targy>Adatkezeles XML_ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>14</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>In 1. em. 103</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBAAZ57" tipus="Eloadas">
+		<targy>Angol</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>16</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>A1 225</helyszin>
+		<oktato>Kovacs Boglarka Gizella</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GLUHZ57" tipus="Gyakorlat">
+		<targy>Mesterseges intelligencia</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>18</tol>
+			<ig>19</ig>
+		</idopont>
+		<helyszin>In fsz 15</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GB4FHZ57" tipus="Eloadas">
+		<targy>Szoftverteszteles</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>In 1. em. 103</helyszin>
+		<oktato>Tompa Tamas</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GB11Z57" tipus="Eloadas">
+		<targy>Szoftverteszteles</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>In 1. em. 103</helyszin>
+		<oktato>Kunne Tamas Judit</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBIIZ57" tipus="Eloadas">
+		<targy>Integralt vallalati rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>14</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>A1 mfsz 14</helyszin>
+		<oktato>Dr. Samad Dadvandipour</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GBIZZ57" tipus="Gyakorlat">
+		<targy>Integralt vallalati rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>16</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>In fsz 15</helyszin>
+		<oktato>Dr. Kulcsarne Forrai Moni</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+</orarend>

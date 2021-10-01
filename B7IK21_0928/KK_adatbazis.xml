@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE adatbazis SYSTEM "KK_adatbazis.dtd">
+<adatbazis>
+	<dolgozo kod="K01">
+		<nev></nev>
+		<fizetes></fizetes>
+	</dolgozo>
+</adatbazis>
