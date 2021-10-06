@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<er xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KK_ertoxsd.xsd">
+  <A a1="1">
+    <B>B</B>
+    <C>C</C>
+  </A>
+  <B b1="2"/>
+  <C c1="3"/>
+  <AC ac1="4" ac2="5"/>
+</er>
