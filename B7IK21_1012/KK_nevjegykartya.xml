@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KK_nevjegykartya.xsd">
+	<nev>Jakab Béla</nev>
+	<ceg>
+		<nev>Kartyakészítő Zrt.</nev>
+		<cim>
+			<iranyitoszam>3665</iranyitoszam>
+			<varos>Bélapátfalva</varos>
+			<utca>Fő út</utca>
+			<hazszam>12</hazszam>
+		</cim>
+		<telefonszam>06305556677</telefonszam>
+		<weblap>www.kartya.hu</weblap>
+	</ceg>
+	<beosztas>Szállító</beosztas>
+	<telefonszam>06305556688</telefonszam>
+	<email>jakabBela@gmail.com</email>
+</nevjegykartyak>

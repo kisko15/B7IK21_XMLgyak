@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/KK_nevjegykartya" elementFormDefault="qualified">
+	<xs:element name="nevjegykartyak">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nev" type="xs:string"/>
+				<xs:element name="ceg">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nev" type="xs:string"/>
+								<xs:element name="cim">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="iranyitoszam" type="irszTipus"/>
+											<xs:element name="varos" type="xs:string"/>
+											<xs:element name="utca" type="xs:string"/>
+											<xs:element name="hazszam" type="xs:integer"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							<xs:element name="telefonszam" type="xs:integer"/>
+							<xs:element name="weblap" type="weblapTipus"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="beosztas" type="xs:string"/>
+				<xs:element name="telefonszam" type="xs:string"/>
+				<xs:element name="email" type="emailTipus"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="emailTipus">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="10"/>
+			<xs:maxLength value="25"/>
+			<xs:whiteSpace value="preserve"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="weblapTipus">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="10"/>
+			<xs:maxLength value="25"/>
+			<xs:whiteSpace value="preserve"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="irszTipus">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
