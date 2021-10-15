@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE nevjegykartyak SYSTEM "KK_nevjegykartya.dtd">
+
 <nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KK_nevjegykartya.xsd">
+
 	<nev>Jakab Béla</nev>
 	<ceg>
 		<nev>Kartyakészítő Zrt.</nev>

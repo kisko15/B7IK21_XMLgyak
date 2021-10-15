@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KK_konyv1.xsd">
-	<konyv isbn="IS22">
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KK_konyv_mod.xsd">
+	<konyv>
 		<cim></cim>
 		<szerzo></szerzo>
-		<szereplo id="1">
+		<szereplo>
 			<nev></nev>
 			<baratja></baratja>
 			<szuletett></szuletett>
 			<jellemzes></jellemzes>
 		</szereplo>
-		<szereplo id="2">
+		<szereplo>
 			<nev></nev>
 			<szuletett></szuletett>
 			<jellemzes></jellemzes>

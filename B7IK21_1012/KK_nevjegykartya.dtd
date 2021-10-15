@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT nevjegykartyak (nev, ceg, beosztas, telefonszam, email)>
+<!ATTLIST nevjegykartyak xmlns CDATA #FIXED '' xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT ceg (nev, cim, telefonszam, weblap)>
+<!ATTLIST ceg xmlns CDATA #FIXED ''>
+
+<!ELEMENT beosztas (#PCDATA)>
+<!ATTLIST beosztas xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email xmlns CDATA #FIXED ''>
+
+<!ELEMENT cim (iranyitoszam, varos, utca, hazszam)>
+<!ATTLIST cim xmlns CDATA #FIXED ''>
+
+<!ELEMENT weblap (#PCDATA)>
+<!ATTLIST weblap xmlns CDATA #FIXED ''>
+
+<!ELEMENT iranyitoszam (#PCDATA)>
+<!ATTLIST iranyitoszam xmlns CDATA #FIXED ''>
+
+<!ELEMENT varos (#PCDATA)>
+<!ATTLIST varos xmlns CDATA #FIXED ''>
+
+<!ELEMENT utca (#PCDATA)>
+<!ATTLIST utca xmlns CDATA #FIXED ''>
+
+<!ELEMENT hazszam (#PCDATA)>
+<!ATTLIST hazszam xmlns CDATA #FIXED ''>
+
+<!ELEMENT nev (#PCDATA)>
+<!ATTLIST nev xmlns CDATA #FIXED ''>
+
+<!ELEMENT telefonszam (#PCDATA)>
+<!ATTLIST telefonszam xmlns CDATA #FIXED ''>
