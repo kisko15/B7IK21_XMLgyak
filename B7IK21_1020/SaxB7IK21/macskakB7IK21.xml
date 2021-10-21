@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE cats SYSTEM "macskakB7IK21.dtd"> -->
+<!-- <cats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="macskakB7IK21.xsd"> -->
+<cats>	
+	<cat id="1">
+		<name>Pedro</name>
+		<age>2</age>
+		<breed>Sziami</breed>
+	</cat>
+	<cat id="2">
+		<name>Cirmos</name>
+		<age>9</age>
+		<breed>Perzsa</breed>
+	</cat>
+	<cat id="3">
+		<name>Jagu</name>
+		<age>7</age>
+		<breed>Bengali</breed>
+	</cat>
+</cats>
