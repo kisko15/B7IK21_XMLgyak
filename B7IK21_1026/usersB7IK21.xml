@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usersB7IK21.xsd">
+	<user id="1">
+		<firstname>Kis</firstname>
+		<lastname>Kornél</lastname>
+		<profession>programozó</profession>
+	</user>
+	<user id="2">
+		<firstname>Nagy</firstname>
+		<lastname>Béla</lastname>
+		<profession>jogász</profession>
+	</user>
+	<user id="3">
+		<firstname>Kovács</firstname>
+		<lastname>Géza</lastname>
+		<profession>tanár</profession>
+	</user>
+</users>
