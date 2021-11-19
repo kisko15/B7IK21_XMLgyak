@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <h2>Orarend</h2>
+        <table border="4">
+            <tr bgcolor="#9acd32">
+                <th>Id</th><th>Targy</th><th colspan="3">Idopont</th><th>Helyszin</th><th>Oktato</th><th>Szak</th>
+            </tr>
+            <tr>
+                <td>GBNHZ54</td><td>WEB_es alkalmazasok</td><td>Hetfo</td><td>10</td><td>12</td><td>In 1. em. 101</td><td>Dr. Krizsan Zoltan</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GBNHZ55</td><td>WEB technologiak</td><td>Hetfo</td><td>12</td><td>14</td><td>A1 3. em. 305</td><td>Agardi Anita</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GBNHZ56</td><td>Mesterseges intelligencia</td><td>Hetfo</td><td>14</td><td>17</td><td>A1 magasfsz</td><td>Dr. Dudas Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GBNHZ57</td><td>WEB technologiak</td><td>Hetfo</td><td>17</td><td>19</td><td>In 1. em. 101</td><td>Kunne Tamas Judit</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GBNHZ51</td><td>WEB_es alkalmazasok</td><td>Kedd</td><td>10</td><td>12</td><td>In 1. em. 101</td><td>Dr. Krizsan Zoltan</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GBNH497</td><td>Adatkezeles XML_ben</td><td>Kedd</td><td>12</td><td>14</td><td>A2 fsz 1</td><td>Dr. Bednarik Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GLNHZ57</td><td>Adatkezeles XML_ben</td><td>Kedd</td><td>14</td><td>16</td><td>In 1. em. 103</td><td>Dr. Bednarik Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GBNHZ57</td><td>Angol</td><td>Kedd</td><td>16</td><td>18</td><td>A1 225</td><td>Kovacs Boglarka Gizella</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GLUHZ57</td><td>Mesterseges intelligencia</td><td>Kedd</td><td>18</td><td>19</td><td>In fsz 15</td><td>Dr. Dudas Laszlo</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GB4FHZ57</td><td>Szoftverteszteles</td><td>Szerda</td><td>8</td><td>10</td><td>In 1. em. 103</td><td>Tompa Tamas</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GB11Z57</td><td>Szoftverteszteles</td><td>Szerda</td><td>10</td><td>12</td><td>In 1. em. 103</td><td>Kunne Tamas Judit</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GB11Z57</td><td>Integralt vallalati rendszerek</td><td>Szerda</td><td>14</td><td>16</td><td>A1 mfsz 14</td><td>Dr. Samad Dadvandipour</td><td>Mernokinformatikus</td>
+            </tr>
+            <tr>
+                <td>GB11Z57</td><td>Integralt vallalati rendszerek</td><td>Szerda</td><td>16</td><td>18</td><td>In fsz 15</td><td>Dr. Kulcsarne Forrai Moni</td><td>Mernokinformatikus</td>
+            </tr>
+        </table>
+    </body>
+</html>
