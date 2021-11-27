@@ -124,6 +124,40 @@
 			</cim>
 		</vasarlo>
 	</vasarlok>
+	<szemelyigazolvanyok>
+		<szemelyigazolvany sz_igazolvanyid="szig1" vasarloid="vas4">
+			<nev>Pingvin Ember</nev>
+			<cim>
+				<iranyitoszam>1111</iranyitoszam>
+				<varos>Budapest</varos>
+				<utca>Pesti út 05.</utca>
+			</cim>
+		</szemelyigazolvany>
+		<szemelyigazolvany sz_igazolvanyid="szig2" vasarloid="vas3">
+			<nev>Erdei Sándor</nev>
+			<cim>
+				<iranyitoszam>4444</iranyitoszam>
+				<varos>Ottlakó</varos>
+				<utca>Sehol út 33.</utca>
+			</cim>
+		</szemelyigazolvany>
+		<szemelyigazolvany sz_igazolvanyid="szig3" vasarloid="vas2">
+			<nev>Kovács Géza</nev>
+			<cim>
+				<iranyitoszam>2345</iranyitoszam>
+				<varos>Nincslakó</varos>
+				<utca>Otthon út 22.</utca>
+			</cim>
+		</szemelyigazolvany>
+		<szemelyigazolvany sz_igazolvanyid="szig4" vasarloid="vas1">
+			<nev>Nagy Lajos</nev>
+			<cim>
+				<iranyitoszam>3780</iranyitoszam>
+				<varos>Edelény</varos>
+				<utca>Andrásy út 10.</utca>
+			</cim>
+		</szemelyigazolvany>
+	</szemelyigazolvanyok>
 	<bankkartyak>
 		<bankkartya kartyaszam="11223344" vasarloid="vas1">
 			<lejarati_datum>2025.04.21</lejarati_datum>

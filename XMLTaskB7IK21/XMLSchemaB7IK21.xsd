@@ -105,6 +105,32 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
+				<xs:element name="szemelyigazolvanyok">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element minOccurs="1" maxOccurs="unbounded"
+								name="szemelyigazolvany">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nev" type="xs:string" />
+										<xs:element name="cim">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="iranyitoszam"
+														type="irányitoszamTipus" />
+													<xs:element name="varos" type="xs:string" />
+													<xs:element name="utca" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="sz_igazolvanyid" type="xs:string" />
+									<xs:attribute name="vasarloid" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 				<xs:element name="bankkartyak">
 					<xs:complexType>
 						<xs:sequence>
@@ -200,6 +226,10 @@
 			<xs:selector xpath="vasarlo" />
 			<xs:field xpath="@vasarloid" />
 		</xs:key>
+		<xs:key name="Key_szemelyigazolvany">
+			<xs:selector xpath="szemelyigazolvany" />
+			<xs:field xpath="@sz_igazolvanyid" />
+		</xs:key>
 		<xs:key name="Key_bankkartya">
 			<xs:selector xpath="bankkartya" />
 			<xs:field xpath="@kartyaszam" />
@@ -245,6 +275,10 @@
 		<xs:keyref name="FKey_vasarlo_futocipo" refer="Key_futocipo">
 			<xs:selector xpath="vasarlo" />
 			<xs:field xpath="@futocipoid" />
+		</xs:keyref>
+		<xs:keyref name="FKey_szemelyigazolvany_vasarlo" refer="Key_szemelyigazolvany">
+			<xs:selector xpath="sz_igazolvanyid" />
+			<xs:field xpath="@vasarloid" />
 		</xs:keyref>
 		<xs:keyref name="FKey_bankkartya_vasarlo"
 			refer="Key_vasarlo">
