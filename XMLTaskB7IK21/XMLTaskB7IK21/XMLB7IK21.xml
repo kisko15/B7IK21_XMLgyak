@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<sportuzletek>
+		<sportuzlet sportuzletid="s1" futocipoid="f1">
+			<nev>Spuri futóbolt</nev>
+			<nyitvatartas>H-Szo 8-19</nyitvatartas>
+			<elerhetoseg>
+				<weboldal>www.spurifutobolt.com</weboldal>
+				<telefonszam>06301234567</telefonszam>
+			</elerhetoseg>
+		</sportuzlet>
+		<sportuzlet sportuzletid="s2" futocipoid="f2">
+			<nev>Nyulciő futóbolt</nev>
+			<nyitvatartas>H-Szo 9-16</nyitvatartas>
+			<elerhetoseg>
+				<weboldal>www.nyulcipofutobolt.com</weboldal>
+				<telefonszam>06302220011</telefonszam>
+			</elerhetoseg>
+		</sportuzlet>
+		<sportuzlet sportuzletid="s3" futocipoid="f3">
+			<nev>Fuss futóbolt</nev>
+			<nyitvatartas>H-V 8-20</nyitvatartas>
+			<elerhetoseg>
+				<weboldal>www.fussfutobolt.com</weboldal>
+				<telefonszam>+36701234444</telefonszam>
+			</elerhetoseg>
+		</sportuzlet>
+		<sportuzlet sportuzletid="s4" futocipoid="f4">
+			<nev>Szaladj futóbolt</nev>
+			<nyitvatartas>H-P 8-16</nyitvatartas>
+			<elerhetoseg>
+				<weboldal>www.szaladjutobolt.com</weboldal>
+				<telefonszam>06307653310</telefonszam>
+			</elerhetoseg>
+		</sportuzlet>
+	</sportuzletek>
+	<futocipok>
+		<futocipo futocipoid="f1" vasarloid="v1">
+			<futocipo_nev>Hoka</futocipo_nev>
+		</futocipo>
+		<futocipo futocipoid="f2" vasarloid="v1">
+			<futocipo_nev>Asics</futocipo_nev>
+		</futocipo>
+		<futocipo futocipoid="f3" vasarloid="v3">
+			<futocipo_nev>Adidas</futocipo_nev>
+		</futocipo>
+		<futocipo futocipoid="f4" vasarloid="v4">
+			<futocipo_nev>Saucony</futocipo_nev>
+		</futocipo>
+	</futocipok>
+	<fut_szinek>
+		<fut_szin futocipoid="f1">
+			<szin>Fekete</szin>
+		</fut_szin>
+		<fut_szin futocipoid="f2">
+			<szin>Fehér</szin>
+		</fut_szin>
+		<fut_szin futocipoid="f3">
+			<szin>Piros</szin>
+		</fut_szin>
+		<fut_szin futocipoid="f4">
+			<szin>Kék</szin>
+		</fut_szin>
+	</fut_szinek>
+	<fut_meretek>
+		<fut_meret futocipoid="f1">
+			<meret>38</meret>
+		</fut_meret>
+		<fut_meret futocipoid="f2">
+			<meret>42</meret>
+		</fut_meret>
+		<fut_meret futocipoid="f3">
+			<meret>41</meret>
+		</fut_meret>
+		<fut_meret futocipoid="f4">
+			<meret>39</meret>
+		</fut_meret>
+	</fut_meretek>
+	<vasarlok>
+		<vasarlo vasarloid="vas1" futocipoid="f1">
+			<nev>Nagy Lajos</nev>
+			<telefonszam>06201112233</telefonszam>
+			<cim>
+				<iranyitoszam>3780</iranyitoszam>
+				<varos>Edelény</varos>
+				<utca>Andrásy út 10.</utca>
+			</cim>
+		</vasarlo>
+		<vasarlo vasarloid="vas2" futocipoid="f2">
+			<nev>Kovács Géza</nev>
+			<telefonszam>06301119999</telefonszam>
+			<cim>
+				<iranyitoszam>2345</iranyitoszam>
+				<varos>Nincslakó</varos>
+				<utca>Otthon út 22.</utca>
+			</cim>
+		</vasarlo>
+		<vasarlo vasarloid="vas2" futocipoid="f4">
+			<nev>Kovács Géza</nev>
+			<telefonszam>06301119999</telefonszam>
+			<cim>
+				<iranyitoszam>2345</iranyitoszam>
+				<varos>Nincslakó</varos>
+				<utca>Otthon út 22.</utca>
+			</cim>
+		</vasarlo>
+		<vasarlo vasarloid="vas3" futocipoid="f3">
+			<nev>Erdei Sándor</nev>
+			<telefonszam>+36304447768</telefonszam>
+			<cim>
+				<iranyitoszam>4444</iranyitoszam>
+				<varos>Ottlakó</varos>
+				<utca>Sehol út 33.</utca>
+			</cim>
+		</vasarlo>
+		<vasarlo vasarloid="vas4" futocipoid="f4">
+			<nev>Pingvin Ember</nev>
+			<telefonszam>06706669966</telefonszam>
+			<cim>
+				<iranyitoszam>1111</iranyitoszam>
+				<varos>Budapest</varos>
+				<utca>Pesti út 05.</utca>
+			</cim>
+		</vasarlo>
+	</vasarlok>
+	<bankkartyak>
+		<bankkartya kartyaszam="11223344" vasarloid="vas1">
+			<lejarati_datum>2025.04.21</lejarati_datum>
+			<bank>OTP</bank>
+			<tipus>Mastercard</tipus>
+		</bankkartya>
+		<bankkartya kartyaszam="11227777" vasarloid="vas2">
+			<lejarati_datum>2027.11.07</lejarati_datum>
+			<bank>Budapest Bank</bank>
+			<tipus>Mastercard Gold</tipus>
+		</bankkartya>
+		<bankkartya kartyaszam="11224545" vasarloid="vas3">
+			<lejarati_datum>2022.09.21</lejarati_datum>
+			<bank>OTP</bank>
+			<tipus>Mastercard Platina</tipus>
+		</bankkartya>
+		<bankkartya kartyaszam="11223333" vasarloid="vas4">
+			<lejarati_datum>2026.03.11</lejarati_datum>
+			<bank>Erste Bank</bank>
+			<tipus>Mastercard World</tipus>
+		</bankkartya>
+	</bankkartyak>
+	<beszallitasok>
+		<beszallitas beszallitoid="bsz1" sportuzletid="s1">
+			<datum>2021.11.17</datum>
+			<futocipok>Hoka</futocipok>
+		</beszallitas>
+		<beszallitas beszallitoid="bsz2" sportuzletid="s1">
+			<datum>2021.11.17</datum>
+			<futocipok>Nike</futocipok>
+		</beszallitas>
+		<beszallitas beszallitoid="bsz3" sportuzletid="s3">
+			<datum>2021.11.17</datum>
+			<futocipok>Adidas</futocipok>
+		</beszallitas>
+		<beszallitas beszallitoid="bsz4" sportuzletid="s4">
+			<datum>2021.11.17</datum>
+			<futocipok>Saucony</futocipok>
+		</beszallitas>
+	</beszallitasok>
+	<beszallitok>
+		<beszallito beszallitoid="bsz1">
+			<nev>József Attila</nev>
+			<cim>Márnincs út 18.</cim>
+			<elerhetoseg>
+				<iranyitoszam>1112</iranyitoszam>
+				<varos>Pontosvár</varos>
+				<utca>Lehetetlen</utca>
+				<hazszam>36</hazszam>
+			</elerhetoseg>
+		</beszallito>
+		<beszallito beszallitoid="bsz2">
+			<nev>Petőfi Sándor</nev>
+			<cim>Kávéház út 12.</cim>
+			<elerhetoseg>
+				<iranyitoszam>1212</iranyitoszam>
+				<varos>Tizenkettő</varos>
+				<utca>Pont</utca>
+				<hazszam>12</hazszam>
+			</elerhetoseg>
+		</beszallito>
+		<beszallito beszallitoid="bsz3">
+			<nev>Ady Endre</nev>
+			<cim>Őrizem Szemed út 34.</cim>
+			<elerhetoseg>
+				<iranyitoszam>2345</iranyitoszam>
+				<varos>Párizs</varos>
+				<utca>Járt</utca>
+				<hazszam>29</hazszam>
+			</elerhetoseg>
+		</beszallito>
+		<beszallito beszallitoid="bsz4">
+			<nev>Kosztolányi Dezső</nev>
+			<cim>Halotti út 66.</cim>
+			<elerhetoseg>
+				<iranyitoszam>3210</iranyitoszam>
+				<varos>Kolozsvár</varos>
+				<utca>Nyár</utca>
+				<hazszam>55</hazszam>
+			</elerhetoseg>
+		</beszallito>
+	</beszallitok>
+	<kiszallitok>
+		<kiszallito kiszallitoid="k1" sportuzletid="s1">
+			<nev>Még Nincs</nev>
+			<telefonszam>+36308887878</telefonszam>
+		</kiszallito>
+		<kiszallito kiszallitoid="k2" sportuzletid="s2">
+			<nev>Majd Lesz</nev>
+			<telefonszam>06201472586</telefonszam>
+		</kiszallito>
+		<kiszallito kiszallitoid="k3" sportuzletid="s3">
+			<nev>Pontosan Tudó Nincs</nev>
+			<telefonszam>+36708884561</telefonszam>
+		</kiszallito>
+		<kiszallito kiszallitoid="k4" sportuzletid="s4">
+			<nev>Sehol Senki</nev>
+			<telefonszam>06303332121</telefonszam>
+		</kiszallito>
+	</kiszallitok>
+</root>
